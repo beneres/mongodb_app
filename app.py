@@ -5,7 +5,7 @@ from pymongo import MongoClient
 # ...
 
 app = Flask(__name__)
-app.secret_key = secrets.token_hex(16)
+app.secret_key = 
 
 client = pymongo.MongoClient(mongodb+srv://beneres:<password>@cluster0.07a8zoq.mongodb.net/test)
 
